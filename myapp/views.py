@@ -4,3 +4,10 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'index.html')
+
+
+def name(request):
+    return render(request, 'header.html')
+
+def name(request):
+    return render(request, 'footer.html')
